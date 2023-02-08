@@ -1,0 +1,13 @@
+.foreword {
+    padding: 50px 0;
+    &__text {
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        color: #05386B;
+        span {
+            font-weight: 500;
+        }
+    }
+}

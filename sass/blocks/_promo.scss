@@ -1,0 +1,27 @@
+.promo {
+    position: relative;
+    padding-top: 170px;
+    height: 500px;
+    background-color: #254E58;
+    &__header {
+        position: relative;
+        width: 500px;
+        z-index: 2;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 45px;
+    }
+    &__subheader {
+        margin-top: 35px;
+        width: 380px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    &__img {
+        z-index: 1;
+        position: absolute;
+        right: 120px;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,102 @@
+.lecture {
+    padding: 85px 0 50px 0;
+    &__subtitle {
+        width: 690px;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        color: #05386b;
+    }
+    &__text {
+        position: relative;
+        text-align: justify;
+        font-weight: 300;
+        color: #05386b;
+        font-size: 20px;
+        padding-left: 40px;
+        &:hover::after, &:hover::before {
+            background-color: #f0d441;
+            transition: 0.5s all;
+        }
+        &::before {
+            content: '1';
+            position: absolute;
+            display: block;
+            left: -10px;
+            top: 25px;
+            text-align: center;
+            font-weight: 300;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background-color: rgba(17,100,102,.8);
+        }
+        &::after {
+            content: ' ';
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            display: block;
+            width: 10px;
+            height: 97%;
+            margin: auto 0;
+            background-color: rgba(17,100,102,.8);
+            border-radius: 10px;
+        }
+    }
+    &__list {
+        padding-left: 50px;
+    }
+    &__test {
+        position: relative;
+        padding-left: 40px;
+        display: block;
+        height: 80px;
+        color: #116466;
+        font-size: 22px;
+        font-weight: 500;
+        &:hover::after, &:hover::before {
+            background-color: #f0d441;
+            transition: 0.5s;
+        }
+        &::before {
+            content: '2';
+            position: absolute;
+            display: block;
+            left: -10px;
+            text-align: center;
+            font-weight: 300;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background-color: rgba(17,100,102,.8);
+        }
+        &::after {
+            content: ' ';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            display: block;
+            width: 10px;
+            height: 50%;
+            margin: auto 0;
+            background-color: rgba(17,100,102,.8);
+            border-radius: 10px;
+        }
+    }
+    &__link {
+        padding-top: 37px;
+        display: block;
+        color: #116466;
+        font-size: 22px;
+        font-weight: 500;
+        transition: 0.5s all;
+        &:hover {
+            color: rgb(85,127,138);
+        }
+    }
+}

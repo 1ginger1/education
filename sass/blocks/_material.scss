@@ -1,0 +1,50 @@
+.material {
+    padding: 45px;
+    background-color: rgba(85, 127, 138, 0.75);
+    min-height: 2300px;
+    &__subtitle {
+        margin-top: 45px;
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+    &__content {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &-item {
+        padding: 30px;
+        &__link {
+            display: block;
+        }
+        &__round {
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+            background-color: #254e58;
+            border-radius: 100%;
+            transition: 0.5s all;
+            &:hover {
+                box-shadow: 4px 4px 40px #fff;
+            }
+        }
+        &__img {
+            vertical-align: middle;
+            height: 65px;
+            color: #fff;
+
+        } 
+        &__title {
+            width: 250px;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 15px;
+            color: #000;
+            text-align: center;
+        }
+    }
+}
